@@ -1,0 +1,50 @@
+{
+  "site_title": "BARO.LOG · 바다와 AI 사이",
+  "site_url": "https://baro-ocean-logbook.aio-4-9335.chatgpt.site",
+  "export_date": "2026-10-26",
+  "site_version": 1,
+  "source_commit": "accfb84880eb212cf77f3e7d4bbbe52518bfccc8",
+  "files": [
+    {
+      "path": "dist/index.html",
+      "original_path": "dist/index.html",
+      "bytes": 13048,
+      "sha256": "fd73bc576c3429b54d053447e72154f93e9cd3038a13dd954a478f38c1fb7ff5"
+    },
+    {
+      "path": "dist/styles.css",
+      "original_path": "dist/styles.css",
+      "bytes": 21870,
+      "sha256": "aff14c168a6e5730e5971bdf698720b008c857d9d706a69e2b4f21afcb3a3bc4"
+    },
+    {
+      "path": "dist/app.js",
+      "original_path": "dist/app.js",
+      "bytes": 17436,
+      "sha256": "c8ac87731aa08ba20eb80c7da1e992d2dc9eee7b38c6f55e3bbaa62b668fe5d5"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "original_path": "dist/favicon.svg",
+      "bytes": 222,
+      "sha256": "4f2927011e42bcd8c8d957fd0aad703def98a056bcce162a058ab20c95d58038"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "original_path": ".openai/hosting.json",
+      "bytes": 106,
+      "sha256": "d490309edba3a4d4e79db1b2ff278901021d28e3c4eca3c7d9c13b0d093b399d"
+    },
+    {
+      "path": "ORIGINAL_README.md",
+      "original_path": "README.md",
+      "bytes": 2098,
+      "sha256": "17ce9fc0b8d486c04a62ba618ca0c1fedbc87708f168963ce964624f87cbc2e4"
+    }
+  ],
+  "added_documentation": [
+    "README.md",
+    "BARO_LOG_CODE_GUIDE.md",
+    "SOURCE_MANIFEST.json"
+  ]
+}

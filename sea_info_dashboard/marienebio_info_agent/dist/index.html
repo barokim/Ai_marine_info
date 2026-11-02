@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ec">
+  <meta name="description" content="김바로의 해양 × AI 개발 로그북. 바다에 대한 호기심을 코드로 옮기고, 실험하며 배운 것을 기록합니다.">
+  <title>BARO.LOG — 바다와 AI 사이</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="BARO.LOG 처음으로"><svg viewBox="0 0 36 28" aria-hidden="true"><path d="M2 10c5-8 9-8 14 0s9 8 18 0M2 20c5-8 9-8 14 0s9 8 18 0"/></svg>BARO<span>.LOG</span></a>
+    <nav aria-label="주요 메뉴"><a href="#projects">프로젝트</a><a href="#notes">탐구 노트</a><a href="#reflection">주간 회고</a></nav>
+    <a class="header-link" href="https://github.com/barokim" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> KIM BARO’S LEARNING LOG</p>
+        <h1 id="hero-title">바다를 탐구하고,<br><span>AI로 만듭니다.</span></h1>
+        <p class="hero-desc">바다에 대한 호기심을 코드로 옮기는 김바로입니다.<br class="desktop"> 직접 만들고, 부딪히고, 배운 것을 이곳에 남깁니다.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">만들고 있는 것들 <span aria-hidden="true">↗</span></a><a class="text-link" href="https://marinebaro.tistory.com/" target="_blank" rel="noopener noreferrer">블로그 읽기 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-foot"><span class="mono">CURRENT EXPLORATION</span><p>Python <b>·</b> FastAPI <b>·</b> AI 오케스트레이션</p></div>
+      </div>
+      <figure class="ocean-cover">
+        <div class="cover-top mono"><span>FIELD NOTES / 001</span><span>OCEAN × AI</span></div>
+        <svg id="contour-map" class="contour-map" viewBox="0 0 520 530" aria-hidden="true"><defs><radialGradient id="sea-glow"><stop offset="0" stop-color="#467d78" stop-opacity=".5"/><stop offset="1" stop-color="#173f42" stop-opacity="0"/></radialGradient></defs><rect width="520" height="530" fill="url(#sea-glow)"/><g id="contours"></g><g class="map-cross"><path d="M395 112v26m-13-13h26M125 382v26m-13-13h26"/><circle cx="395" cy="125" r="32"/><circle cx="125" cy="395" r="5"/></g><path class="map-route" d="M125 395C315 420 182 160 395 125"/><circle cx="395" cy="125" r="4" fill="#e5c17f"/></svg>
+        <div class="cover-title"><span class="mono">SMALL EXPERIMENTS.<br>NEW POSSIBILITIES.</span><p>Into the<br><i>next wave.</i></p></div>
+        <figcaption class="cover-bottom"><span>호기심이 향하는 곳으로.</span><span class="compass" aria-hidden="true">✳</span></figcaption>
+        <span class="map-caption mono">A MAP OF CURIOSITY — CONCEPT ART</span>
+      </figure>
+    </section>
+    <div class="chapter-strip"><div class="wrap strip-inner"><p><span class="tiny-wave" aria-hidden="true">≈</span> 작은 실험을 쌓아, 나만의 방향을 찾는 중.</p><span class="mono">EXPLORE → BUILD → REFLECT</span></div></div>
+    <section class="projects wrap section" id="projects" aria-labelledby="projects-title">
+      <div class="section-top"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="projects-title">호기심이 코드가 될 때<span class="heading-dot">.</span></h2></div><p class="section-note">지금까지 만든 두 가지 실험.<br>결과와 함께, 다음 질문도 남깁니다.</p></div>
+      <div class="filters" role="group" aria-label="프로젝트 분류"><button class="filter active" data-filter="all" aria-pressed="true">전체 <span>02</span></button><button class="filter" data-filter="ocean" aria-pressed="false">해양 데이터</button><button class="filter" data-filter="web" aria-pressed="false">웹 백엔드</button></div>
+      <div class="project-grid">
+        <article class="project-card" data-category="ocean">
+          <button class="project-art sea-art" data-project="sea" aria-label="Sea-Info 프로젝트 자세히 보기">
+            <div class="mock-top"><span><span class="mini-sun">✳</span> Sea-Info</span><span class="mono">MARINE DATA WORKSPACE</span></div>
+            <div class="sea-preview"><div class="sea-preview-copy"><span class="mono">OBSERVE THE OCEAN</span><strong>바다를 읽는<br>또 하나의 방법.</strong><span class="mock-chip">예보 · 생물 · 관찰 기록</span></div><svg viewBox="0 0 260 180" aria-hidden="true"><path d="M0 155Q45 95 85 140T175 95T270 110V180H0Z" fill="#91b2ac" opacity=".25"/><path d="M0 120Q45 60 85 105T175 60T270 75"/><path d="M0 145Q45 85 85 130T175 85T270 100" opacity=".5"/><path d="M0 95Q45 35 85 80T175 35T270 50" opacity=".35"/><circle cx="168" cy="65" r="5" fill="#ce835b" stroke="none"/><path d="M168 21V160" stroke-dasharray="3 5" opacity=".35"/></svg></div><div class="preview-caption mono"><span>OPEN-METEO / WoRMS / SQLite</span><span>UI CONCEPT ↗</span></div>
+          </button>
+          <div class="project-info"><div class="project-meta"><span class="tag">해양 데이터</span><span class="mono">PROJECT 01</span></div><button class="project-title" data-project="sea">Sea-Info 해양 대시보드 <span aria-hidden="true">↗</span></button><p>흩어진 바다 정보와 생물 검색, 관찰 기록을<br class="desktop"> 하나의 흐름으로 연결하는 데이터 실험.</p><div class="tech-list"><span>Python</span><span>FastAPI</span><span>SQLite</span><span>Public API</span></div></div>
+        </article>
+        <article class="project-card" data-category="web">
+          <button class="project-art guest-art" data-project="guest" aria-label="작은 방명록 프로젝트 자세히 보기"><div class="guest-preview"><span class="guest-sun" aria-hidden="true">✳</span><span class="mono">WELCOME TO THE SHORE</span><strong>작은 인사가<br>머무는 곳.</strong><div class="guest-line"><span class="avatar">B</span><span>만나서 반가워요.<i></i></span><span aria-hidden="true">♡</span></div></div><div class="preview-caption mono"><span>A LITTLE GUESTBOOK</span><span>UI CONCEPT ↗</span></div></button>
+          <div class="project-info"><div class="project-meta"><span class="tag clay">웹 백엔드</span><span class="mono">PROJECT 02</span></div><button class="project-title" data-project="guest">작은 방명록 <span aria-hidden="true">↗</span></button><p>이름을 기억하고, 인사를 저장하는 작은 서비스.<br class="desktop"> 요청부터 DB 저장까지 웹의 기본기를 익힙니다.</p><div class="tech-list"><span>FastAPI</span><span>SQLite</span><span>Cookie</span></div></div>
+        </article>
+      </div>
+      <p class="source-note">프로젝트 설명은 2026.10.26 저장소 확인 기준입니다. 이미지는 프로젝트를 소개하는 UI 콘셉트입니다.</p>
+    </section>
+    <section class="notes-section" id="notes" aria-labelledby="notes-title"><div class="wrap notes-layout">
+      <div class="notes-intro"><p class="eyebrow">02 / LEARNING IN PUBLIC</p><h2 id="notes-title">배운 것을,<br>내 언어로.</h2><p>돌아가는 코드를 넘어<br>왜 그렇게 동작하는지 이해하기.</p><a class="text-link" href="https://marinebaro.tistory.com/" target="_blank" rel="noopener noreferrer">티스토리에서 더 읽기 <span aria-hidden="true">↗</span></a><div class="notebook-mark mono" aria-hidden="true">{ curiosity: true }</div></div>
+      <div class="note-list">
+        <button class="note-row" data-note="cookie"><span class="note-number mono">01</span><span class="note-body"><span class="note-category">WEB FUNDAMENTALS</span><strong>닉네임을 기억하는 것과<br>사용자를 인증하는 것의 차이</strong><span class="note-tags">Cookie <b>·</b> Session <b>·</b> Authentication</span></span><span class="note-arrow" aria-hidden="true">↗</span></button>
+        <button class="note-row" data-note="api"><span class="note-number mono">02</span><span class="note-body"><span class="note-category">DATA & VERIFICATION</span><strong>진짜 데이터와 예시 데이터,<br>경계를 분명하게 만들기</strong><span class="note-tags">Public API <b>·</b> Error states <b>·</b> 검증</span></span><span class="note-arrow" aria-hidden="true">↗</span></button>
+        <button class="note-row" data-note="db"><span class="note-number mono">03</span><span class="note-body"><span class="note-category">NEXT EXPERIMENT</span><strong>저장한 기록은<br>다시 시작해도 남아 있을까?</strong><span class="note-tags">SQLite <b>·</b> Persistence <b>·</b> 배포</span></span><span class="note-arrow" aria-hidden="true">↗</span></button>
+        <p class="note-disclaimer">프로젝트 코드를 바탕으로 정리한 노트 · 블로그 발행 여부와 별개입니다.</p>
+      </div>
+    </div></section>
+    <section class="reflection-section wrap section" id="reflection" aria-labelledby="reflection-title">
+      <div class="reflection-panel"><div class="reflection-copy"><p class="eyebrow">03 / THE WEEKLY LOG</p><h2 id="reflection-title">작은 진전도,<br>기록할 가치가 있으니까.</h2><p>잘한 일, 막힌 지점, 다음에 해볼 일.<br>이번 주의 경험을 다음 실험의 출발점으로.</p><button class="button light" id="open-reflection">이번 주 회고 쓰기 <span aria-hidden="true">↗</span></button><span class="saved-note" id="draft-status">KPT 또는 4L로 가볍게 시작하세요.</span></div><div class="kpt-preview" aria-hidden="true"><div class="kpt-top mono"><span>MY WEEK, IN THREE WORDS</span><span>↙</span></div><div class="kpt-line"><span>K</span><div><strong>Keep</strong><p>계속 가져가고 싶은 것</p></div><span>↗</span></div><div class="kpt-line"><span>P</span><div><strong>Problem</strong><p>막혔던 순간과 그 이유</p></div><span>↗</span></div><div class="kpt-line"><span>T</span><div><strong>Try</strong><p>다음 주, 작게 시도할 것</p></div><span>↗</span></div><p class="mono kpt-bottom">LESS SUMMARY. MORE DISCOVERY.</p></div></div>
+    </section>
+    <section class="about wrap" aria-label="김바로 소개"><div class="about-label mono">THE PERSON BEHIND THE LOG</div><div><h2>안녕하세요, 김바로입니다<span>.</span></h2><p>AI 오케스트레이션을 배우며 Python과 FastAPI로 아이디어를 구현하고 있습니다.<br>바다에서 찾은 질문을 데이터와 연결하고, 매주 한 걸음씩 기록합니다.</p></div><a class="round-link" href="https://github.com/barokim" target="_blank" rel="noopener noreferrer" aria-label="김바로 GitHub 프로필 열기">↗</a></section>
+  </main>
+  <footer class="wrap footer"><a class="brand footer-brand" href="#">BARO<span>.LOG</span></a><span>바다와 AI 사이, 배움의 항해.</span><div><a href="https://github.com/barokim" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://marinebaro.tistory.com/" target="_blank" rel="noopener noreferrer">Blog ↗</a><a href="#">맨 위로 ↑</a></div><span class="mono copyright">© 2026 KIM BARO</span></footer>
+  <dialog id="detail-dialog" class="detail-dialog"><button class="close-dialog" data-close aria-label="닫기">×</button><div id="detail-content"></div></dialog>
+  <dialog id="reflection-dialog" class="reflection-dialog" aria-labelledby="reflection-dialog-title"><button class="close-dialog" data-close aria-label="회고 닫기">×</button><p class="eyebrow">YOUR PERSONAL LOGBOOK</p><h2 id="reflection-dialog-title">이번 주의 나에게.</h2><p class="dialog-intro">강의 요약보다, 직접 겪으며 배운 것을 적어보세요.</p><form id="reflection-form"><div class="form-header"><label>기록 날짜<input type="date" id="log-date" required></label><label>회고 방식<select id="log-format"><option value="KPT">KPT — Keep · Problem · Try</option><option value="4L">4L — Liked · Learned · Lacked · Longed for</option></select></label></div><label class="title-label">이번 주 한 줄<input id="log-title" maxlength="120" placeholder="이번 주를 표현하는 나만의 제목"></label><div id="reflection-fields"></div><div class="form-actions"><span id="save-status" role="status">입력하면 자동 저장됩니다.</span><button class="button primary" type="submit">Markdown 내려받기 ↓</button></div><p class="local-note">이 브라우저에만 저장됩니다. 기기 간 동기화나 블로그 발행은 지원하지 않습니다. 기록을 보관하려면 파일로 내려받으세요.</p></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
