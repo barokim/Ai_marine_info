@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "relative_source": "../sea_info_dashboard",
+  "files": {
+    "main.py": "c55b710b1d3e457ef4ef191d475edebf1d64c71f14ef7349837e6d9e4a42ac01",
+    "models.py": "b852e293f7c31737172fab0c6fc00ff6403bfc56a59d63bf1f100228b1619903",
+    "services.py": "f3f0ac2704670f4b891231638567653b05a30217ec3a5e1a9dc5ef6dea6746dc",
+    "species_service.py": "b11f403b453e3cc02337818d263fc51605925fae677188a2d0c7efe1859026f8",
+    "image_service.py": "770d8ded656ccce87651ce6bf8dd0cdda65734f984fa432a87a898c267595931",
+    "database.py": "007cdad681fdb83d4998601c217f989dad6523434e69e5cf7f0d2e9fe6b4511d",
+    "requirements.txt": "6aa49873d08bc2a853520832a615eff9576de853151f93a48fb529de4c352394",
+    "static/index.html": "52d70569098f443108f242f1448230f82621358efaa4ddddf309eb3e93241ac5",
+    "static/app.js": "1fc89cd2e09a6ba5e2640af5ae385eb1c338c776dbc59e139e45ff3141aa9643",
+    "static/style.css": "8794fe1a29f222bb75780c2522b39928d7cf5fe7cb7484c843ffc065ae7adf23",
+    "static/live.css": "5c13fca4dc68ce85a60426f38e0e2394925301c66a984e815097ef318876c55a"
+  }
+}

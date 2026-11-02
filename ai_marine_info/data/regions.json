@@ -1,0 +1,1706 @@
+{
+  "version": "2026-10-30",
+  "coordinate_note": "시·군·구 대표 해역의 모델 예보 좌표입니다. 관측소의 공식 위치 좌표가 아닙니다.",
+  "sources": [
+    "https://www.data.go.kr/data/15156018/openapi.do",
+    "https://www.data.go.kr/data/15155508/openapi.do"
+  ],
+  "provinces": [
+    {
+      "id": "p01",
+      "name": "경기도"
+    },
+    {
+      "id": "p02",
+      "name": "인천광역시"
+    },
+    {
+      "id": "p03",
+      "name": "강원특별자치도"
+    },
+    {
+      "id": "p04",
+      "name": "충청남도"
+    },
+    {
+      "id": "p05",
+      "name": "전북특별자치도"
+    },
+    {
+      "id": "p06",
+      "name": "전라남도"
+    },
+    {
+      "id": "p07",
+      "name": "경상남도"
+    },
+    {
+      "id": "p08",
+      "name": "부산광역시"
+    },
+    {
+      "id": "p09",
+      "name": "울산광역시"
+    },
+    {
+      "id": "p10",
+      "name": "경상북도"
+    },
+    {
+      "id": "p11",
+      "name": "제주특별자치도"
+    }
+  ],
+  "cities": [
+    {
+      "id": "p01-c01",
+      "province_id": "p01",
+      "name": "김포시",
+      "latitude": 37.72,
+      "longitude": 126.52
+    },
+    {
+      "id": "p01-c02",
+      "province_id": "p01",
+      "name": "시흥시",
+      "latitude": 37.33,
+      "longitude": 126.65
+    },
+    {
+      "id": "p01-c03",
+      "province_id": "p01",
+      "name": "안산시",
+      "latitude": 37.2,
+      "longitude": 126.55
+    },
+    {
+      "id": "p01-c04",
+      "province_id": "p01",
+      "name": "화성시",
+      "latitude": 37.1,
+      "longitude": 126.62
+    },
+    {
+      "id": "p01-c05",
+      "province_id": "p01",
+      "name": "평택시",
+      "latitude": 36.96,
+      "longitude": 126.8
+    },
+    {
+      "id": "p02-c01",
+      "province_id": "p02",
+      "name": "제물포구",
+      "latitude": 37.45,
+      "longitude": 126.55
+    },
+    {
+      "id": "p02-c02",
+      "province_id": "p02",
+      "name": "영종구",
+      "latitude": 37.43,
+      "longitude": 126.4
+    },
+    {
+      "id": "p02-c03",
+      "province_id": "p02",
+      "name": "미추홀구",
+      "latitude": 37.42,
+      "longitude": 126.6
+    },
+    {
+      "id": "p02-c04",
+      "province_id": "p02",
+      "name": "연수구",
+      "latitude": 37.36,
+      "longitude": 126.6
+    },
+    {
+      "id": "p02-c05",
+      "province_id": "p02",
+      "name": "서해구",
+      "latitude": 37.57,
+      "longitude": 126.57
+    },
+    {
+      "id": "p02-c06",
+      "province_id": "p02",
+      "name": "강화군",
+      "latitude": 37.7,
+      "longitude": 126.35
+    },
+    {
+      "id": "p02-c07",
+      "province_id": "p02",
+      "name": "옹진군",
+      "latitude": 37.22,
+      "longitude": 126.13
+    },
+    {
+      "id": "p02-c08",
+      "province_id": "p02",
+      "name": "남동구",
+      "latitude": 37.37,
+      "longitude": 126.69
+    },
+    {
+      "id": "p02-c09",
+      "province_id": "p02",
+      "name": "검단구",
+      "latitude": 37.62,
+      "longitude": 126.53
+    },
+    {
+      "id": "p03-c01",
+      "province_id": "p03",
+      "name": "고성군",
+      "latitude": 38.42,
+      "longitude": 128.48
+    },
+    {
+      "id": "p03-c02",
+      "province_id": "p03",
+      "name": "속초시",
+      "latitude": 38.21,
+      "longitude": 128.64
+    },
+    {
+      "id": "p03-c03",
+      "province_id": "p03",
+      "name": "양양군",
+      "latitude": 38.08,
+      "longitude": 128.7
+    },
+    {
+      "id": "p03-c04",
+      "province_id": "p03",
+      "name": "강릉시",
+      "latitude": 37.83,
+      "longitude": 128.91
+    },
+    {
+      "id": "p03-c05",
+      "province_id": "p03",
+      "name": "동해시",
+      "latitude": 37.53,
+      "longitude": 129.15
+    },
+    {
+      "id": "p03-c06",
+      "province_id": "p03",
+      "name": "삼척시",
+      "latitude": 37.39,
+      "longitude": 129.24
+    },
+    {
+      "id": "p04-c01",
+      "province_id": "p04",
+      "name": "아산시",
+      "latitude": 36.93,
+      "longitude": 126.91
+    },
+    {
+      "id": "p04-c02",
+      "province_id": "p04",
+      "name": "당진시",
+      "latitude": 37.0,
+      "longitude": 126.63
+    },
+    {
+      "id": "p04-c03",
+      "province_id": "p04",
+      "name": "서산시",
+      "latitude": 37.02,
+      "longitude": 126.4
+    },
+    {
+      "id": "p04-c04",
+      "province_id": "p04",
+      "name": "태안군",
+      "latitude": 36.68,
+      "longitude": 126.08
+    },
+    {
+      "id": "p04-c05",
+      "province_id": "p04",
+      "name": "홍성군",
+      "latitude": 36.56,
+      "longitude": 126.43
+    },
+    {
+      "id": "p04-c06",
+      "province_id": "p04",
+      "name": "보령시",
+      "latitude": 36.31,
+      "longitude": 126.43
+    },
+    {
+      "id": "p04-c07",
+      "province_id": "p04",
+      "name": "서천군",
+      "latitude": 36.1,
+      "longitude": 126.47
+    },
+    {
+      "id": "p05-c01",
+      "province_id": "p05",
+      "name": "군산시",
+      "latitude": 35.96,
+      "longitude": 126.48
+    },
+    {
+      "id": "p05-c02",
+      "province_id": "p05",
+      "name": "부안군",
+      "latitude": 35.63,
+      "longitude": 126.4
+    },
+    {
+      "id": "p05-c03",
+      "province_id": "p05",
+      "name": "고창군",
+      "latitude": 35.43,
+      "longitude": 126.4
+    },
+    {
+      "id": "p06-c01",
+      "province_id": "p06",
+      "name": "영광군",
+      "latitude": 35.3,
+      "longitude": 126.29
+    },
+    {
+      "id": "p06-c02",
+      "province_id": "p06",
+      "name": "함평군",
+      "latitude": 35.08,
+      "longitude": 126.36
+    },
+    {
+      "id": "p06-c03",
+      "province_id": "p06",
+      "name": "무안군",
+      "latitude": 34.95,
+      "longitude": 126.3
+    },
+    {
+      "id": "p06-c04",
+      "province_id": "p06",
+      "name": "목포시",
+      "latitude": 34.77,
+      "longitude": 126.32
+    },
+    {
+      "id": "p06-c05",
+      "province_id": "p06",
+      "name": "신안군",
+      "latitude": 34.75,
+      "longitude": 126.03
+    },
+    {
+      "id": "p06-c06",
+      "province_id": "p06",
+      "name": "영암군",
+      "latitude": 34.73,
+      "longitude": 126.39
+    },
+    {
+      "id": "p06-c07",
+      "province_id": "p06",
+      "name": "해남군",
+      "latitude": 34.34,
+      "longitude": 126.47
+    },
+    {
+      "id": "p06-c08",
+      "province_id": "p06",
+      "name": "진도군",
+      "latitude": 34.42,
+      "longitude": 126.16
+    },
+    {
+      "id": "p06-c09",
+      "province_id": "p06",
+      "name": "완도군",
+      "latitude": 34.26,
+      "longitude": 126.76
+    },
+    {
+      "id": "p06-c10",
+      "province_id": "p06",
+      "name": "강진군",
+      "latitude": 34.43,
+      "longitude": 126.79
+    },
+    {
+      "id": "p06-c11",
+      "province_id": "p06",
+      "name": "장흥군",
+      "latitude": 34.44,
+      "longitude": 126.98
+    },
+    {
+      "id": "p06-c12",
+      "province_id": "p06",
+      "name": "보성군",
+      "latitude": 34.67,
+      "longitude": 127.09
+    },
+    {
+      "id": "p06-c13",
+      "province_id": "p06",
+      "name": "고흥군",
+      "latitude": 34.45,
+      "longitude": 127.4
+    },
+    {
+      "id": "p06-c14",
+      "province_id": "p06",
+      "name": "여수시",
+      "latitude": 34.61,
+      "longitude": 127.76
+    },
+    {
+      "id": "p06-c15",
+      "province_id": "p06",
+      "name": "순천시",
+      "latitude": 34.83,
+      "longitude": 127.49
+    },
+    {
+      "id": "p06-c16",
+      "province_id": "p06",
+      "name": "광양시",
+      "latitude": 34.88,
+      "longitude": 127.77
+    },
+    {
+      "id": "p07-c01",
+      "province_id": "p07",
+      "name": "하동군",
+      "latitude": 34.94,
+      "longitude": 127.84
+    },
+    {
+      "id": "p07-c02",
+      "province_id": "p07",
+      "name": "남해군",
+      "latitude": 34.73,
+      "longitude": 127.95
+    },
+    {
+      "id": "p07-c03",
+      "province_id": "p07",
+      "name": "사천시",
+      "latitude": 34.9,
+      "longitude": 128.06
+    },
+    {
+      "id": "p07-c04",
+      "province_id": "p07",
+      "name": "고성군",
+      "latitude": 34.92,
+      "longitude": 128.35
+    },
+    {
+      "id": "p07-c05",
+      "province_id": "p07",
+      "name": "통영시",
+      "latitude": 34.78,
+      "longitude": 128.43
+    },
+    {
+      "id": "p07-c06",
+      "province_id": "p07",
+      "name": "거제시",
+      "latitude": 34.77,
+      "longitude": 128.67
+    },
+    {
+      "id": "p07-c07",
+      "province_id": "p07",
+      "name": "창원시",
+      "latitude": 35.1,
+      "longitude": 128.63
+    },
+    {
+      "id": "p08-c01",
+      "province_id": "p08",
+      "name": "강서구",
+      "latitude": 35.0,
+      "longitude": 128.82
+    },
+    {
+      "id": "p08-c02",
+      "province_id": "p08",
+      "name": "사하구",
+      "latitude": 35.02,
+      "longitude": 128.96
+    },
+    {
+      "id": "p08-c03",
+      "province_id": "p08",
+      "name": "서구",
+      "latitude": 35.06,
+      "longitude": 129.01
+    },
+    {
+      "id": "p08-c04",
+      "province_id": "p08",
+      "name": "중구",
+      "latitude": 35.1,
+      "longitude": 129.05
+    },
+    {
+      "id": "p08-c05",
+      "province_id": "p08",
+      "name": "동구",
+      "latitude": 35.12,
+      "longitude": 129.06
+    },
+    {
+      "id": "p08-c06",
+      "province_id": "p08",
+      "name": "영도구",
+      "latitude": 35.05,
+      "longitude": 129.09
+    },
+    {
+      "id": "p08-c07",
+      "province_id": "p08",
+      "name": "남구",
+      "latitude": 35.1,
+      "longitude": 129.12
+    },
+    {
+      "id": "p08-c08",
+      "province_id": "p08",
+      "name": "수영구",
+      "latitude": 35.14,
+      "longitude": 129.14
+    },
+    {
+      "id": "p08-c09",
+      "province_id": "p08",
+      "name": "해운대구",
+      "latitude": 35.15,
+      "longitude": 129.19
+    },
+    {
+      "id": "p08-c10",
+      "province_id": "p08",
+      "name": "기장군",
+      "latitude": 35.24,
+      "longitude": 129.25
+    },
+    {
+      "id": "p09-c01",
+      "province_id": "p09",
+      "name": "울주군",
+      "latitude": 35.35,
+      "longitude": 129.37
+    },
+    {
+      "id": "p09-c02",
+      "province_id": "p09",
+      "name": "남구",
+      "latitude": 35.48,
+      "longitude": 129.4
+    },
+    {
+      "id": "p09-c03",
+      "province_id": "p09",
+      "name": "동구",
+      "latitude": 35.5,
+      "longitude": 129.46
+    },
+    {
+      "id": "p09-c04",
+      "province_id": "p09",
+      "name": "북구",
+      "latitude": 35.61,
+      "longitude": 129.48
+    },
+    {
+      "id": "p10-c01",
+      "province_id": "p10",
+      "name": "경주시",
+      "latitude": 35.78,
+      "longitude": 129.51
+    },
+    {
+      "id": "p10-c02",
+      "province_id": "p10",
+      "name": "포항시",
+      "latitude": 36.05,
+      "longitude": 129.47
+    },
+    {
+      "id": "p10-c03",
+      "province_id": "p10",
+      "name": "영덕군",
+      "latitude": 36.42,
+      "longitude": 129.44
+    },
+    {
+      "id": "p10-c04",
+      "province_id": "p10",
+      "name": "울진군",
+      "latitude": 36.99,
+      "longitude": 129.45
+    },
+    {
+      "id": "p10-c05",
+      "province_id": "p10",
+      "name": "울릉군",
+      "latitude": 37.48,
+      "longitude": 130.93
+    },
+    {
+      "id": "p11-c01",
+      "province_id": "p11",
+      "name": "제주시",
+      "latitude": 33.55,
+      "longitude": 126.5
+    },
+    {
+      "id": "p11-c02",
+      "province_id": "p11",
+      "name": "서귀포시",
+      "latitude": 33.2,
+      "longitude": 126.55
+    }
+  ],
+  "stations": [
+    {
+      "id": "DT_0008",
+      "name": "안산",
+      "province_id": "p01",
+      "city_id": "p01-c03",
+      "tides": true,
+      "observations": true,
+      "tide_name": "안산",
+      "observation_name": "안산"
+    },
+    {
+      "id": "SO_1268",
+      "name": "궁평항",
+      "province_id": "p01",
+      "city_id": "p01-c04",
+      "tides": true,
+      "observations": false,
+      "tide_name": "궁평항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0564",
+      "name": "국화도",
+      "province_id": "p01",
+      "city_id": "p01-c04",
+      "tides": true,
+      "observations": false,
+      "tide_name": "국화도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0002",
+      "name": "평택",
+      "province_id": "p01",
+      "city_id": "p01-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "평택",
+      "observation_name": "평택"
+    },
+    {
+      "id": "DT_0001",
+      "name": "인천",
+      "province_id": "p02",
+      "city_id": "p02-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "인천",
+      "observation_name": "인천"
+    },
+    {
+      "id": "DT_0093",
+      "name": "소무의도",
+      "province_id": "p02",
+      "city_id": "p02-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "소무의도",
+      "observation_name": "소무의도"
+    },
+    {
+      "id": "SO_0554",
+      "name": "영종왕산",
+      "province_id": "p02",
+      "city_id": "p02-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "영종왕산",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1258",
+      "name": "잠진도",
+      "province_id": "p02",
+      "city_id": "p02-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "잠진도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0044",
+      "name": "영종대교",
+      "province_id": "p02",
+      "city_id": "p02-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "영종대교",
+      "observation_name": "영종대교"
+    },
+    {
+      "id": "DT_0052",
+      "name": "인천송도",
+      "province_id": "p02",
+      "city_id": "p02-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "인천송도",
+      "observation_name": "인천송도"
+    },
+    {
+      "id": "DT_0058",
+      "name": "경인항",
+      "province_id": "p02",
+      "city_id": "p02-c05",
+      "tides": true,
+      "observations": false,
+      "tide_name": "경인항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0032",
+      "name": "강화대교",
+      "province_id": "p02",
+      "city_id": "p02-c06",
+      "tides": true,
+      "observations": true,
+      "tide_name": "강화대교",
+      "observation_name": "강화대교"
+    },
+    {
+      "id": "DT_0064",
+      "name": "교동대교",
+      "province_id": "p02",
+      "city_id": "p02-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "교동대교",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0539",
+      "name": "강화외포",
+      "province_id": "p02",
+      "city_id": "p02-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "강화외포",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1257",
+      "name": "강화하리",
+      "province_id": "p02",
+      "city_id": "p02-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "강화하리",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1256",
+      "name": "어류정항",
+      "province_id": "p02",
+      "city_id": "p02-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "어류정항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0065",
+      "name": "덕적도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": true,
+      "tide_name": "덕적도",
+      "observation_name": "덕적도"
+    },
+    {
+      "id": "DT_0043",
+      "name": "영흥도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": true,
+      "tide_name": "영흥도",
+      "observation_name": "영흥도"
+    },
+    {
+      "id": "DT_0059",
+      "name": "백령도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "백령도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0060",
+      "name": "연평도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "연평도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1282",
+      "name": "선재도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "선재도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1259",
+      "name": "자월도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "자월도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0562",
+      "name": "승봉도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "승봉도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0563",
+      "name": "울도",
+      "province_id": "p02",
+      "city_id": "p02-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "울도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1274",
+      "name": "거진항",
+      "province_id": "p03",
+      "city_id": "p03-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "거진항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1275",
+      "name": "공현진항",
+      "province_id": "p03",
+      "city_id": "p03-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "공현진항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1276",
+      "name": "아야진항",
+      "province_id": "p03",
+      "city_id": "p03-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "아야진항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0012",
+      "name": "속초",
+      "province_id": "p03",
+      "city_id": "p03-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "속초",
+      "observation_name": "속초"
+    },
+    {
+      "id": "SO_1283",
+      "name": "사천진항",
+      "province_id": "p03",
+      "city_id": "p03-c04",
+      "tides": true,
+      "observations": false,
+      "tide_name": "사천진항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0006",
+      "name": "묵호",
+      "province_id": "p03",
+      "city_id": "p03-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "묵호",
+      "observation_name": "묵호"
+    },
+    {
+      "id": "DT_0057",
+      "name": "동해항",
+      "province_id": "p03",
+      "city_id": "p03-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "동해항",
+      "observation_name": "동해항"
+    },
+    {
+      "id": "SO_0540",
+      "name": "호산항",
+      "province_id": "p03",
+      "city_id": "p03-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "호산항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1273",
+      "name": "장호항",
+      "province_id": "p03",
+      "city_id": "p03-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "장호항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1281",
+      "name": "임원항",
+      "province_id": "p03",
+      "city_id": "p03-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "임원항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1280",
+      "name": "덕산항",
+      "province_id": "p03",
+      "city_id": "p03-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "덕산항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1278",
+      "name": "원평항",
+      "province_id": "p03",
+      "city_id": "p03-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "원평항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0017",
+      "name": "대산",
+      "province_id": "p04",
+      "city_id": "p04-c03",
+      "tides": true,
+      "observations": true,
+      "tide_name": "대산",
+      "observation_name": "대산"
+    },
+    {
+      "id": "SO_1270",
+      "name": "삼길포항",
+      "province_id": "p04",
+      "city_id": "p04-c03",
+      "tides": true,
+      "observations": false,
+      "tide_name": "삼길포항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0050",
+      "name": "태안",
+      "province_id": "p04",
+      "city_id": "p04-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "태안",
+      "observation_name": "태안"
+    },
+    {
+      "id": "DT_0067",
+      "name": "안흥",
+      "province_id": "p04",
+      "city_id": "p04-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "안흥",
+      "observation_name": "안흥"
+    },
+    {
+      "id": "SO_1260",
+      "name": "방포항",
+      "province_id": "p04",
+      "city_id": "p04-c04",
+      "tides": true,
+      "observations": false,
+      "tide_name": "방포항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1271",
+      "name": "어은돌항",
+      "province_id": "p04",
+      "city_id": "p04-c04",
+      "tides": true,
+      "observations": false,
+      "tide_name": "어은돌항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0025",
+      "name": "보령",
+      "province_id": "p04",
+      "city_id": "p04-c06",
+      "tides": true,
+      "observations": true,
+      "tide_name": "보령",
+      "observation_name": "보령"
+    },
+    {
+      "id": "SO_1261",
+      "name": "무창포항",
+      "province_id": "p04",
+      "city_id": "p04-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "무창포항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1252",
+      "name": "외연도항",
+      "province_id": "p04",
+      "city_id": "p04-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "외연도항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0024",
+      "name": "장항",
+      "province_id": "p04",
+      "city_id": "p04-c07",
+      "tides": true,
+      "observations": true,
+      "tide_name": "장항",
+      "observation_name": "장항"
+    },
+    {
+      "id": "DT_0051",
+      "name": "서천마량",
+      "province_id": "p04",
+      "city_id": "p04-c07",
+      "tides": true,
+      "observations": true,
+      "tide_name": "서천마량",
+      "observation_name": "서천마량"
+    },
+    {
+      "id": "DT_0018",
+      "name": "군산",
+      "province_id": "p05",
+      "city_id": "p05-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "군산",
+      "observation_name": "군산"
+    },
+    {
+      "id": "DT_0037",
+      "name": "어청도",
+      "province_id": "p05",
+      "city_id": "p05-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "어청도",
+      "observation_name": "어청도"
+    },
+    {
+      "id": "SO_0547",
+      "name": "말도",
+      "province_id": "p05",
+      "city_id": "p05-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "말도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0068",
+      "name": "위도",
+      "province_id": "p05",
+      "city_id": "p05-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "위도",
+      "observation_name": "위도"
+    },
+    {
+      "id": "SO_1262",
+      "name": "격포항",
+      "province_id": "p05",
+      "city_id": "p05-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "격포항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1253",
+      "name": "상왕등도",
+      "province_id": "p05",
+      "city_id": "p05-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "상왕등도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1263",
+      "name": "구시포항",
+      "province_id": "p05",
+      "city_id": "p05-c03",
+      "tides": true,
+      "observations": false,
+      "tide_name": "구시포항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0003",
+      "name": "영광",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "영광",
+      "observation_name": "영광"
+    },
+    {
+      "id": "DT_0066",
+      "name": "향화도",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": false,
+      "observations": true,
+      "tide_name": null,
+      "observation_name": "향화도"
+    },
+    {
+      "id": "SO_0565",
+      "name": "향화도항",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "향화도항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1264",
+      "name": "계마항",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "계마항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0538",
+      "name": "안마도",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "안마도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1251",
+      "name": "낙월도",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "낙월도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1265",
+      "name": "송이도",
+      "province_id": "p06",
+      "city_id": "p06-c01",
+      "tides": true,
+      "observations": false,
+      "tide_name": "송이도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0007",
+      "name": "목포",
+      "province_id": "p06",
+      "city_id": "p06-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "목포",
+      "observation_name": "목포"
+    },
+    {
+      "id": "DT_0035",
+      "name": "흑산도",
+      "province_id": "p06",
+      "city_id": "p06-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "흑산도",
+      "observation_name": "흑산도"
+    },
+    {
+      "id": "SO_0548",
+      "name": "우이도",
+      "province_id": "p06",
+      "city_id": "p06-c05",
+      "tides": true,
+      "observations": false,
+      "tide_name": "우이도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1248",
+      "name": "신안옥도",
+      "province_id": "p06",
+      "city_id": "p06-c05",
+      "tides": true,
+      "observations": false,
+      "tide_name": "신안옥도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1254",
+      "name": "만재도",
+      "province_id": "p06",
+      "city_id": "p06-c05",
+      "tides": true,
+      "observations": false,
+      "tide_name": "만재도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1255",
+      "name": "상태도",
+      "province_id": "p06",
+      "city_id": "p06-c05",
+      "tides": true,
+      "observations": false,
+      "tide_name": "상태도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1279",
+      "name": "어란진항",
+      "province_id": "p06",
+      "city_id": "p06-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "어란진항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0028",
+      "name": "진도",
+      "province_id": "p06",
+      "city_id": "p06-c08",
+      "tides": true,
+      "observations": true,
+      "tide_name": "진도",
+      "observation_name": "진도"
+    },
+    {
+      "id": "DT_0094",
+      "name": "서거차도",
+      "province_id": "p06",
+      "city_id": "p06-c08",
+      "tides": true,
+      "observations": true,
+      "tide_name": "서거차도",
+      "observation_name": "서거차도"
+    },
+    {
+      "id": "SO_0537",
+      "name": "벽파진",
+      "province_id": "p06",
+      "city_id": "p06-c08",
+      "tides": true,
+      "observations": false,
+      "tide_name": "벽파진",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0555",
+      "name": "서망항",
+      "province_id": "p06",
+      "city_id": "p06-c08",
+      "tides": true,
+      "observations": false,
+      "tide_name": "서망항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1249",
+      "name": "독거도",
+      "province_id": "p06",
+      "city_id": "p06-c08",
+      "tides": true,
+      "observations": false,
+      "tide_name": "독거도",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0027",
+      "name": "완도",
+      "province_id": "p06",
+      "city_id": "p06-c09",
+      "tides": true,
+      "observations": true,
+      "tide_name": "완도",
+      "observation_name": "완도"
+    },
+    {
+      "id": "SO_0551",
+      "name": "여서도",
+      "province_id": "p06",
+      "city_id": "p06-c09",
+      "tides": true,
+      "observations": false,
+      "tide_name": "여서도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0706",
+      "name": "청산도",
+      "province_id": "p06",
+      "city_id": "p06-c09",
+      "tides": true,
+      "observations": false,
+      "tide_name": "청산도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0756",
+      "name": "사초항",
+      "province_id": "p06",
+      "city_id": "p06-c10",
+      "tides": true,
+      "observations": false,
+      "tide_name": "사초항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0026",
+      "name": "고흥발포",
+      "province_id": "p06",
+      "city_id": "p06-c13",
+      "tides": true,
+      "observations": true,
+      "tide_name": "고흥발포",
+      "observation_name": "고흥발포"
+    },
+    {
+      "id": "DT_0092",
+      "name": "여호항",
+      "province_id": "p06",
+      "city_id": "p06-c13",
+      "tides": true,
+      "observations": true,
+      "tide_name": "여호항",
+      "observation_name": "여호항"
+    },
+    {
+      "id": "SO_0550",
+      "name": "나로도",
+      "province_id": "p06",
+      "city_id": "p06-c13",
+      "tides": true,
+      "observations": false,
+      "tide_name": "나로도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0761",
+      "name": "녹동항",
+      "province_id": "p06",
+      "city_id": "p06-c13",
+      "tides": true,
+      "observations": false,
+      "tide_name": "녹동항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1266",
+      "name": "남열항",
+      "province_id": "p06",
+      "city_id": "p06-c13",
+      "tides": true,
+      "observations": false,
+      "tide_name": "남열항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0016",
+      "name": "여수",
+      "province_id": "p06",
+      "city_id": "p06-c14",
+      "tides": true,
+      "observations": true,
+      "tide_name": "여수",
+      "observation_name": "여수"
+    },
+    {
+      "id": "DT_0031",
+      "name": "거문도",
+      "province_id": "p06",
+      "city_id": "p06-c14",
+      "tides": true,
+      "observations": true,
+      "tide_name": "거문도",
+      "observation_name": "거문도"
+    },
+    {
+      "id": "SO_0549",
+      "name": "초도",
+      "province_id": "p06",
+      "city_id": "p06-c14",
+      "tides": true,
+      "observations": false,
+      "tide_name": "초도",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0708",
+      "name": "안도항",
+      "province_id": "p06",
+      "city_id": "p06-c14",
+      "tides": true,
+      "observations": false,
+      "tide_name": "안도항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_1269",
+      "name": "연도항",
+      "province_id": "p06",
+      "city_id": "p06-c14",
+      "tides": true,
+      "observations": false,
+      "tide_name": "연도항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0049",
+      "name": "광양",
+      "province_id": "p06",
+      "city_id": "p06-c16",
+      "tides": true,
+      "observations": true,
+      "tide_name": "광양",
+      "observation_name": "광양"
+    },
+    {
+      "id": "SO_0326",
+      "name": "미조항",
+      "province_id": "p07",
+      "city_id": "p07-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "미조항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0061",
+      "name": "삼천포",
+      "province_id": "p07",
+      "city_id": "p07-c03",
+      "tides": true,
+      "observations": true,
+      "tide_name": "삼천포",
+      "observation_name": "삼천포"
+    },
+    {
+      "id": "DT_0014",
+      "name": "통영",
+      "province_id": "p07",
+      "city_id": "p07-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "통영",
+      "observation_name": "통영"
+    },
+    {
+      "id": "DT_0029",
+      "name": "거제도",
+      "province_id": "p07",
+      "city_id": "p07-c06",
+      "tides": true,
+      "observations": true,
+      "tide_name": "거제도",
+      "observation_name": "거제도"
+    },
+    {
+      "id": "SO_0552",
+      "name": "고현항",
+      "province_id": "p07",
+      "city_id": "p07-c06",
+      "tides": true,
+      "observations": false,
+      "tide_name": "고현항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0062",
+      "name": "마산",
+      "province_id": "p07",
+      "city_id": "p07-c07",
+      "tides": true,
+      "observations": true,
+      "tide_name": "마산",
+      "observation_name": "마산"
+    },
+    {
+      "id": "DT_0054",
+      "name": "진해",
+      "province_id": "p07",
+      "city_id": "p07-c07",
+      "tides": true,
+      "observations": false,
+      "tide_name": "진해",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0063",
+      "name": "가덕도",
+      "province_id": "p08",
+      "city_id": "p08-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "가덕도",
+      "observation_name": "가덕도"
+    },
+    {
+      "id": "DT_0056",
+      "name": "부산항신항",
+      "province_id": "p08",
+      "city_id": "p08-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "부산항신항",
+      "observation_name": "부산항신항"
+    },
+    {
+      "id": "SO_1272",
+      "name": "다대포항",
+      "province_id": "p08",
+      "city_id": "p08-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "다대포항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0005",
+      "name": "부산",
+      "province_id": "p08",
+      "city_id": "p08-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "부산",
+      "observation_name": "부산"
+    },
+    {
+      "id": "SO_0553",
+      "name": "해운대",
+      "province_id": "p08",
+      "city_id": "p08-c09",
+      "tides": true,
+      "observations": false,
+      "tide_name": "해운대",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0020",
+      "name": "울산",
+      "province_id": "p09",
+      "city_id": "p09-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "울산",
+      "observation_name": "울산"
+    },
+    {
+      "id": "DT_0091",
+      "name": "포항",
+      "province_id": "p10",
+      "city_id": "p10-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "포항",
+      "observation_name": "포항"
+    },
+    {
+      "id": "SO_1267",
+      "name": "구룡포항",
+      "province_id": "p10",
+      "city_id": "p10-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "구룡포항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0737",
+      "name": "강구항",
+      "province_id": "p10",
+      "city_id": "p10-c03",
+      "tides": true,
+      "observations": false,
+      "tide_name": "강구항",
+      "observation_name": null
+    },
+    {
+      "id": "SO_0736",
+      "name": "축산항",
+      "province_id": "p10",
+      "city_id": "p10-c03",
+      "tides": true,
+      "observations": false,
+      "tide_name": "축산항",
+      "observation_name": null
+    },
+    {
+      "id": "DT_0011",
+      "name": "후포",
+      "province_id": "p10",
+      "city_id": "p10-c04",
+      "tides": true,
+      "observations": true,
+      "tide_name": "후포",
+      "observation_name": "후포"
+    },
+    {
+      "id": "DT_0013",
+      "name": "울릉도",
+      "province_id": "p10",
+      "city_id": "p10-c05",
+      "tides": true,
+      "observations": true,
+      "tide_name": "울릉도",
+      "observation_name": "울릉도"
+    },
+    {
+      "id": "DT_0004",
+      "name": "제주",
+      "province_id": "p11",
+      "city_id": "p11-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "제주",
+      "observation_name": "제주"
+    },
+    {
+      "id": "DT_0021",
+      "name": "추자도",
+      "province_id": "p11",
+      "city_id": "p11-c01",
+      "tides": true,
+      "observations": true,
+      "tide_name": "추자도",
+      "observation_name": "추자도"
+    },
+    {
+      "id": "DT_0010",
+      "name": "서귀포",
+      "province_id": "p11",
+      "city_id": "p11-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "서귀포",
+      "observation_name": "서귀포"
+    },
+    {
+      "id": "DT_0022",
+      "name": "성산포",
+      "province_id": "p11",
+      "city_id": "p11-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "성산포",
+      "observation_name": "성산포"
+    },
+    {
+      "id": "DT_0023",
+      "name": "모슬포",
+      "province_id": "p11",
+      "city_id": "p11-c02",
+      "tides": true,
+      "observations": true,
+      "tide_name": "모슬포",
+      "observation_name": "모슬포"
+    },
+    {
+      "id": "SO_1277",
+      "name": "화순항",
+      "province_id": "p11",
+      "city_id": "p11-c02",
+      "tides": true,
+      "observations": false,
+      "tide_name": "화순항",
+      "observation_name": null
+    }
+  ]
+}

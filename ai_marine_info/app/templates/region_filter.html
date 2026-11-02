@@ -1,0 +1,8 @@
+<form id="region-form" class="region-filter" aria-label="해안 지역과 날짜 선택">
+  <label for="province">시·도<select id="province" name="province" required><option value="">지역 불러오는 중</option></select></label>
+  <label for="city">시·군·구<select id="city" name="city" required disabled><option value="">시·도를 선택하세요</option></select></label>
+  {% if page != 'records' %}<label for="station">관측소·예보 지점<select id="station" name="station_id" disabled><option value="">지역을 선택하세요</option></select></label>{% endif %}
+  <label for="target-date">날짜 · 한국 시간<input type="date" id="target-date" name="target_date" required></label>
+  {% if page != 'records' %}<button type="submit">바다 정보 조회 <span aria-hidden="true">↗</span></button>{% endif %}
+</form>
+<p id="region-notice" class="muted" role="status"></p>
